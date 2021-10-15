@@ -9,13 +9,13 @@
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             android:text="Мой профиль"
             android:textStyle="bold"
            android:layout_marginTop="18dp"
             android:layout_marginStart="8dp"
             android:textColor="@color/black"
 
-            app:layout_constraintTop_toTopOf="parent"
             android:textSize="32sp" />
     <ImageView
             android:id="@+id/profile_image"
