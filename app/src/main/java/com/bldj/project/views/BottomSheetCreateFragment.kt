@@ -1,15 +1,16 @@
-package com.bldj.project
+package com.bldj.project.views
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.bldj.project.R
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
 /**
- * Фрагмент окна создания объявления.
+ * Нижняя панель при нажатии на кнопку опубликовать.
  */
-class CreateFragment : Fragment() {
+class BottomSheetCreateFragment : BottomSheetDialogFragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -19,6 +20,6 @@ class CreateFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_create, container, false)
+        return inflater.inflate(R.layout.fragment_bottom_sheet_create, container, false)
     }
 }
